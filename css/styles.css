@@ -100,6 +100,7 @@ body {
  
   .access{
     margin-top: 80px;
+    text-align: center;
   }
   .access img{
     width: 100%;
@@ -262,4 +263,36 @@ body {
     left:0;
     
   }
+  }
+
+  @media (width:768px){
+    /* [class*="col-"] {
+      width: 100%;
+      padding: 0;
+    
+    } */
+
+    footer .col-3,.col-2{
+      width: 100%;
+      text-align: center;
+    }
+    footer ul{
+      padding: 0;
+      
+    }
+
+    .footer li{
+      margin-top: 50px;
+    }
+  
+    .icons ul li{
+      position: relative;
+      left:0;
+      
+    }
+    .log{
+      height: 120px;
+      
+    }
+    
   }
