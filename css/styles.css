@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  font-family: Bai Jamjuree, Arial, Helvetica, sans-serif;
+  font-family: 'Bai Jamjuree', sans-serif;f;
   font-weight: 400, 600;
 }
 
@@ -50,7 +50,6 @@ body {
   }
   button:hover{
     cursor: pointer;
-  
   }
 
   .mac{
@@ -107,7 +106,7 @@ body {
   }
   .logo ul li{ 
     position: relative;
-    left: 80px;
+    left: 50px;
     display: inline-block;
     padding: 30px;
   }
@@ -136,7 +135,14 @@ body {
     background-size: contain;
     background-position: top;
   }
-  
+  ion-icon {
+    font-size: 32px;
+    color: #73716d;
+  }
+
+  ion-icon:hover{
+    fill: hsl(171, 66%, 44%);
+  }
 
 
 
