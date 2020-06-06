@@ -28,10 +28,11 @@ body {
     float: left;
     padding: 15px;
     height: 100%;
+    /* border: 1px black solid; */
   }
 
   .row{
-      width: 80%;
+      width: 90%;
       margin: 0 auto;
       height: auto;
     
@@ -43,10 +44,7 @@ body {
     clear: both;
   }
 
-  p,h1{
-    text-align: center;
-  }
-
+  
   button{
     padding: 15px 40px;
     border-radius: 25px;
@@ -75,7 +73,9 @@ body {
       position: relative;
       top: 150px;
   }
-
+  .intro-content{
+    text-align: center;
+  }
   
   .first-button{
       text-align: right;
@@ -91,13 +91,13 @@ body {
       width: 100%;
       
   }
-  .track{
+  .snippet{
+    text-align: center;
+  }
+  .tracked-snippets{
     text-align: left;
   }
-  .tracked-snippets p{
-    text-align: left;
-  }
-
+ 
   .access{
     margin-top: 80px;
   }
@@ -107,13 +107,16 @@ body {
 
   .work{
     margin: 80px 0;
+    text-align: center;
   }
 
-  .details{
+  .details,.details2{
     height: 200px;
     text-align: center;
   
   }
+
+
   .logo .col-12{
     margin-top: 80px;
   }
@@ -124,10 +127,12 @@ body {
     padding: 30px;
   }
 
+
+
   footer {
     margin-top: 80px;
     background-color:#dbdad7;
-    height: 200px;
+    height: auto;
     
   }
 
@@ -151,7 +156,7 @@ body {
 
   .footer-logo{
     position: relative;
-    top: 80px;
+    top: 40px;
     background-image: url("../images/logo.svg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -175,4 +180,86 @@ body {
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+
+  /* media querries */
+  @media only screen and (min-width: 320px) and (max-width: 425px){
+    [class*="col-"] {
+      width: 100%;
+      padding: 0;
+    
+    }
+    
+    body{
+      text-align: center;
+     
+    }
+
+    p{
+       font-size: 16px;
+    }
+
+    .keeping-track img{
+      position: relative;
+      left: 0;
+      width: 100%;
+      
+  }
+  
+  .track{
+    text-align: center;
+  }
+
+  .introduction{
+    background-image: none;
+    background-image: url("../images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .first-button{
+    text-align: center;
+    margin: 20px 0 ;
+    
+  }
+   .ios,.mac{
+     padding: 15px 80px;
+   }
+
+   .intro-content h1{
+     font-size: 35px;
+   }
+   .keeping-track p{
+     font-size: 16px;
+   }
+   .snipps{
+     text-align: center;
+   }
+   .logo ul {
+     padding: 0;
+   }
+   .logo ul li{ 
+    position: relative;
+    left: 0;
+    display: inline-block;
+    padding: 30px;
+  }
+   .log{
+    height: 120px;
+  }
+  .footer-logo{
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 23%;
+  }
+  footer ul{
+    padding: 0;
+  }
+
+  .icons ul li{
+    position: relative;
+    left:0;
+    
+  }
   }
