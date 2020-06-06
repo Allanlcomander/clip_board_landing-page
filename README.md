@@ -6,9 +6,8 @@
 
 This design is about clipboard landing page a site where  you keep track and store your items on the cloud.
 
+### Technologies
 
+Basic HTML and CSS where used inline with responsivenes.
 
-#### Technologies
-Basic  HTML and CSS where used inline with responsiveness 
-
-##### Thank you 👋
+#### Thank you 👋
