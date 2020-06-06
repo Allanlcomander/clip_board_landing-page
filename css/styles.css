@@ -327,3 +327,24 @@ body {
   }
     
   }
+
+
+  @media (width:1024px){
+    .logo .col-12{
+      text-align: center;
+      padding: 10px;
+    }
+    .logo ul{
+      padding: 0;
+    }
+    .logo ul li{
+      position: relative;
+      left: 0;
+      text-align: center;
+      padding: 20px;
+      
+    }
+    .logo .row{
+      width: 100%;
+    }
+  }
